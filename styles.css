@@ -1,0 +1,126 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+header {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+article {
+    margin: 10px;
+    padding: 10px;
+    width: 70vw;
+    height: 58vh;
+    background-color: lightyellow;
+}
+
+aside {
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    width: 26vw;
+    height: 58vh;
+    right: 2px;
+    top: 11.1vh;
+    background-color: lightgreen;
+}
+.s1{
+    position: absolute;
+    width: 49.1vw;
+    height: 10vh;
+    left: 10px;
+    background-color: lightcyan;
+}
+
+.s2{
+    position: absolute;
+    width: 49.2vw;
+    height: 10vh;
+    right: 10px;
+    background-color: lightcyan;
+}
+
+footer {
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    width: 97.8vw;
+    height: 11vh;
+    bottom: 5px;
+    background-color: lightcoral;
+}
+
+header, nav, article, aside, section, footer{
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        width: 91.5vw;
+        height: 5vh;
+        position: relative;
+        left: -4px;
+        margin: 10px;
+    }
+    article{
+        width: 91.5vw;
+        height: 30vh;
+        margin: 10px;
+        position: relative;
+        right: 4px;
+    }
+    nav{
+        width: 91.5vw;
+        height: 5vh;
+        position: relative;
+        margin: 10px;
+        position: relative;
+        right: 4px;
+    }
+    aside{
+        width: 91.5vw;
+        height: 20vh;
+        position: relative;
+        top: 0;
+        left: -4px;
+        margin: 10px;
+    }
+    .s1{
+        width: 95.1vw;
+        height: 5vh;
+        position: relative;
+        left: -4px;
+        margin: 10px;
+    }
+    .s2 {
+        width: 95.1vw;
+        height: 5vh;
+        position: relative;
+        left: -4px;
+        margin: 10px;
+    }
+    footer {
+        width: 91.5vw;
+        height: 10vh;
+        position: relative;
+        left: -4px;
+        margin: 10px;
+        bottom: 0;
+    }
+    
+}
